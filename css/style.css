@@ -111,7 +111,7 @@ body {
   }
 
  .pic-office {
-    width: 62.5rem;
+    width: 62.5rem; /*dlaczego tutaj szerokość tego zdjącia musi wynosić 100%, a nie 50%?*/
     height: auto;
     background-image: url("../pics/image-header-desktop.jpg");
     border-radius: 0rem 0.5rem 0.5rem 0rem;
