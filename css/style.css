@@ -21,6 +21,8 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+  
+
 .container {
   display: flex;
   align-items: center;
@@ -28,50 +30,104 @@ body {
   text-align: center;
   min-height: 100vh;
 }
-.container__mobile_card {
+.container_card {
   width: 330px;
   height: 790px;
   background-color: var(--card-background);
   border-radius: 0.5rem;
 }
-.picMobile {
+.pic-office  {
   width: 330px;
   height: 245px;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-  filter: opacity(0.5) drop-shadow(0 0 0 var(--accent));
+  background-image: url("../pics/image-header-mobile.jpg");
+  background-color: var(--accent);
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  
 }
 
-.container__mobile_text {
+.container_text {
   margin: 40px 30px 40px 30px;
 }
 
-.container__mobile_text h1 {
+.container_title {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.container__mobile_text p {
+.container_phrase {
+  color: var(--stat-headings);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 25px;
   font-weight: 400;
 }
 
-span {
+.accented_word {
   color: var(--accent);
 }
-.container__mobile_idicators {
+.container_idicators {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 }
-.container__mobile_idicators p {
+.indicators-names {
+  color: var(--stat-headings);
   font-family: 'Inter', sans-serif;
   font-size: 12px;
 }
-.container__mobile_idicators h1 {
+.indicators-numbers {
+  color: var(--main-heading-stats)
   font-family: 'Inter', sans-serif;
   font-size: 22px;
   margin-bottom: 5px;
 }
+
+@media only screen and (min-width: 1440px){
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: left;
+    min-height: 100vh;
+  } 
+
+  .container_card {
+    width: 1000px;
+    height: 410px;
+    background-color: var(--card-background);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+ .pic-office {
+    width: 1000px;
+    height: 410px;
+    background-image: url("../pics/image-header-desktop.jpg");
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }
+  .container_text {
+    margin: 70px 110px 30px 65px;
+  }
+
+  .container_idicators {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 135px 35px 65px;  
+    justify-content: space-between;
+  }
+    
+
+}
+
+
+
+
+
+
+  
