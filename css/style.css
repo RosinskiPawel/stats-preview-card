@@ -31,38 +31,40 @@ body {
   min-height: 100vh;
 }
 .container_card {
-  width: 330px;
-  height: 790px;
+  width: 20.62rem;
+  height: 49.37rem;
   background-color: var(--card-background);
   border-radius: 0.5rem;
 }
+
 .pic-office  {
-  width: 330px;
-  height: 245px;
+  width: auto;
+  height: 15.31rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+  background-size: cover;
   background-image: url("../pics/image-header-mobile.jpg");
   background-color: var(--accent);
-  background-size: cover;
+  
   background-blend-mode: multiply;
 
   
 }
 
 .container_text {
-  margin: 40px 30px 40px 30px;
+  margin: 2.5rem 1.87rem 2.5rem 1.87rem;
 }
 
 .container_title {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 0.93rem;
 }
 .container_phrase {
   color: var(--stat-headings);
   font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.93rem;
+  line-height: 1.56rem;
   font-weight: 400;
 }
 
@@ -72,18 +74,18 @@ body {
 .container_idicators {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 1.87rem;
 }
 .indicators-names {
   color: var(--stat-headings);
   font-family: 'Inter', sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .indicators-numbers {
   color: var(--main-heading-stats)
   font-family: 'Inter', sans-serif;
-  font-size: 22px;
-  margin-bottom: 5px;
+  font-size: 1.37rem;
+  margin-bottom: 0.31rem;
 }
 
 @media only screen and (min-width: 1440px){
@@ -94,31 +96,35 @@ body {
     justify-content: center;
     text-align: left;
     min-height: 100vh;
+    
   } 
 
   .container_card {
-    width: 1000px;
-    height: 410px;
+    width: 62.5rem;
+    height: 26.18rem;
     background-color: var(--card-background);
     border-radius: 0.5rem;
     display: flex;
     flex-direction: row-reverse;
+    
+    
   }
 
  .pic-office {
-    width: 1000px;
-    height: 410px;
+    width: 62.5rem;
+    height: auto;
     background-image: url("../pics/image-header-desktop.jpg");
     border-radius: 0rem 0.5rem 0.5rem 0rem;
+    
   }
   .container_text {
-    margin: 70px 110px 30px 65px;
+    margin: 4.37rem 6.87rem 1.87rem 4.06rem;
   }
 
   .container_idicators {
     display: flex;
     flex-direction: row;
-    margin: 80px 135px 35px 65px;  
+    margin: 5rem 8.43rem 2.18rem 4.06rem;  
     justify-content: space-between;
   }
     
