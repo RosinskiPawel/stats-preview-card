@@ -121,6 +121,12 @@ body {
     margin: 4.37rem 6.87rem 1.87rem 4.06rem;
   }
 
+  .container_title {
+    font-size: 2rem;
+    color: var(--main-heading-stats);
+    margin-bottom: 1.87rem;
+  }
+
   .container_idicators {
     display: flex;
     flex-direction: row;
