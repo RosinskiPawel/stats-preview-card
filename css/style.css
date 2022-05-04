@@ -21,8 +21,6 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 
-  
-
 .container {
   display: flex;
   align-items: center;
@@ -37,21 +35,20 @@ body {
   border-radius: 0.5rem;
 }
 
-.pic-office  {
+.pic-office {
   width: auto;
   height: 15.31rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   background-size: cover;
-  background-image: url("../pics/image-header-mobile.jpg");
+  background-image: url('../pics/image-header-mobile.jpg');
   background-color: var(--accent);
-  
-  background-blend-mode: multiply;
 
-  
+  background-blend-mode: multiply;
 }
 
 .container_text {
+  width: auto;
   margin: 2.5rem 1.87rem 2.5rem 1.87rem;
 }
 
@@ -82,22 +79,20 @@ body {
   font-size: 0.75rem;
 }
 .indicators-numbers {
-  color: var(--main-heading-stats)
+  color: var(--main-heading-stats);
   font-family: 'Inter', sans-serif;
   font-size: 1.37rem;
   margin-bottom: 0.31rem;
 }
 
-@media only screen and (min-width: 1440px){
-
+@media only screen and (min-width: 1440px) {
   .container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     text-align: left;
     min-height: 100vh;
-    
-  } 
+  }
 
   .container_card {
     width: 62.5rem;
@@ -106,23 +101,20 @@ body {
     border-radius: 0.5rem;
     display: flex;
     flex-direction: row-reverse;
-    
-    
   }
 
- .pic-office {
-    width: 62.5rem; /*dlaczego tutaj szerokość tego zdjącia musi wynosić 100%, a nie 50%?*/
+  .pic-office {
+    width: 31.25rem; /*dlaczego tutaj szerokość tego zdjącia musi wynosić 100%, a nie 50%?*/
     height: auto;
-    background-image: url("../pics/image-header-desktop.jpg");
+    background-image: url('../pics/image-header-desktop.jpg');
     border-radius: 0rem 0.5rem 0.5rem 0rem;
-    
   }
   .container_text {
     margin: 4.37rem 6.87rem 1.87rem 4.06rem;
   }
 
   .container_title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--main-heading-stats);
     margin-bottom: 1.87rem;
   }
@@ -130,16 +122,10 @@ body {
   .container_idicators {
     display: flex;
     flex-direction: row;
-    margin: 5rem 8.43rem 2.18rem 4.06rem;  
+    margin: 5rem 8.43rem 2.18rem 4.06rem;
     justify-content: space-between;
   }
-    
-
+  main {
+    width: 50%;
+  }
 }
-
-
-
-
-
-
-  
