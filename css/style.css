@@ -52,12 +52,12 @@ body {
   margin: 2.5rem 1.87rem 2.5rem 1.87rem;
 }
 
-.container_title {
+.text_title {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 700;
   margin-bottom: 0.93rem;
 }
-.container_phrase {
+.text_phrase {
   color: var(--stat-headings);
   font-family: 'Inter', sans-serif;
   font-size: 0.93rem;
@@ -113,7 +113,7 @@ body {
     margin: 4.37rem 6.87rem 1.87rem 4.06rem;
   }
 
-  .container_title {
+  .text_title {
     font-size: 1.8rem;
     color: var(--main-heading-stats);
     margin-bottom: 1.87rem;
@@ -125,7 +125,7 @@ body {
     margin: 5rem 8.43rem 2.18rem 4.06rem;
     justify-content: space-between;
   }
-  main {
+  .text-only {
     width: 50%;
   }
 }
